@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>updatr</string>
+	<string>updater</string>
 	<key>bundleid</key>
-	<string>com.samverschueren.alfred-updatr</string>
+	<string>com.samverschueren.alfred-updater</string>
 	<key>connections</key>
 	<dict>
 		<key>0D531639-4A07-4B31-B86D-69425EDD028D</key>
@@ -104,9 +104,9 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>updatr</string>
+				<string>update</string>
 				<key>subtext</key>
-				<string>Workflow deprecated in favour of `alfred-updater`. Run `npm install -g alfred-updater`</string>
+				<string></string>
 				<key>text</key>
 				<string>Update your Alfred workflows</string>
 				<key>withspace</key>

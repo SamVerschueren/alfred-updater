@@ -1,4 +1,4 @@
-# alfred-updatr [![Build Status](https://travis-ci.org/SamVerschueren/alfred-updatr.svg?branch=master)](https://travis-ci.org/SamVerschueren/alfred-updatr)
+# alfred-updater [![Build Status](https://travis-ci.org/SamVerschueren/alfred-updater.svg?branch=master)](https://travis-ci.org/SamVerschueren/alfred-updater)
 
 > [Alfred](https://www.alfredapp.com/) workflow updater
 
@@ -10,7 +10,7 @@ Note that this workflow will only update the workflows managed by npm, including
 ## Install
 
 ```
-$ npm install -g alfred-updatr
+$ npm install -g alfred-updater
 ```
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
@@ -20,7 +20,7 @@ $ npm install -g alfred-updatr
 
 <img src="media/notification.png" width="358" align="right" />
 
-In Alfred, type `updatr` and <kbd>Enter</kbd>.<br>
+In Alfred, type `update` and <kbd>Enter</kbd>.<br>
 The workflow will start updating all the outdated workflows and will notify you when it's done.
 
 > Note: Updating your workflows can take a while. Be patient!
