@@ -106,7 +106,7 @@
 				<key>keyword</key>
 				<string>updatr</string>
 				<key>subtext</key>
-				<string></string>
+				<string>Workflow deprecated in favour of `alfred-updater`. Run `npm install -g alfred-updater`</string>
 				<key>text</key>
 				<string>Update your Alfred workflows</string>
 				<key>withspace</key>
