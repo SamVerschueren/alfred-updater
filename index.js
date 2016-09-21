@@ -55,4 +55,5 @@ resolveAlfredPrefs()
 	.catch(err => {
 		fs.writeFileSync('output', err.message);
 		console.log('Something went wrong');
-	});
+	})
+	.then(() => execa('open', ['-n', '-a', 'Alfred 3']));
