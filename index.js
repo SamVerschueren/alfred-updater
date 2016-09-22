@@ -1,7 +1,6 @@
 'use strict';
 const path = require('path');
 const fs = require('fs');
-const alfredNotifier = require('alfred-notifier');
 const resolveAlfredPrefs = require('resolve-alfred-prefs');
 const readPkg = require('read-pkg');
 const latestVersion = require('latest-version');
@@ -10,8 +9,6 @@ const execa = require('execa');
 const utils = require('./lib/utils');
 
 const output = [];
-
-alfredNotifier();
 
 const update = pkg => execa('npm', ['install', '-g', pkg.name]).catch(err => {
 	output.push(err.message);

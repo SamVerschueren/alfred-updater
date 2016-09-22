@@ -31,7 +31,6 @@
   ],
   "dependencies": {
     "alfred-link": "^0.1.0",
-    "alfred-notifier": "^0.1.0",
     "execa": "^0.4.0",
     "latest-version": "^2.0.0",
     "pify": "^2.3.0",
