@@ -10,8 +10,8 @@ const utils = require('./lib/utils');
 
 const output = [];
 
-const update = pkg => execa('npm', ['install', '-g', pkg.name]).catch(err => {
-	output.push(err.message);
+const update = pkg => execa('npm', ['install', '-g', pkg.name]).catch(error => {
+	output.push(error.message);
 });
 
 const checkAndUpdate = filePath => readPkg(filePath)
@@ -49,8 +49,8 @@ resolveAlfredPrefs()
 
 		console.log(utils.toMessage(result.filter(Boolean).length));
 	})
-	.catch(err => {
-		fs.writeFileSync('output', err.message);
+	.catch(error => {
+		fs.writeFileSync('output', error.message);
 		console.log('Something went wrong');
 	})
 	.then(() => execa('open', ['-n', '-a', 'Alfred 3']));
