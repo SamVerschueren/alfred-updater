@@ -35,7 +35,7 @@
 		"latest-version": "^2.0.0",
 		"pify": "^2.3.0",
 		"read-pkg": "^1.1.0",
-		"resolve-alfred-prefs": "^1.0.0",
+		"resolve-alfred-prefs": "^2.0.0",
 		"run-node": "^0.1.1",
 		"semver": "^5.3.0"
 	},
