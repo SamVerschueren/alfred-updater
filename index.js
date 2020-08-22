@@ -20,7 +20,7 @@ const update = async pkg => {
 };
 
 const checkAndUpdate = async filePath => {
-	const pkg = await readPkg(filePath);
+	const pkg = await readPkg({cwd: filePath});
 
 	if (!pkg.name || !pkg.version) {
 		return;
