@@ -47,8 +47,8 @@ const checkAndUpdate = async filePath => {
 
 		const workflowDir = path.join(alfredPreferences.path, 'workflows');
 
-		// Retrieve all the symlinks from the workflows directory
-		const filePaths = await utils.findSymlinks(workflowDir);
+		// Retrieve all the npm symlinks from the workflows directory
+		const filePaths = await utils.findNpmSymlinks(workflowDir);
 
 		// Iterate over all the workflows, check if they are outdated and update them
 		const promises = filePaths.map(filePath => checkAndUpdate(filePath));
